@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  pool: valpool
+  vmImage: 'valpool'
 
 steps:
 - task: Maven@3
